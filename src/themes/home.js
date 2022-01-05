@@ -1,4 +1,4 @@
-const useStyles = theme => ({
+const buttonstyling = theme => ({
     button1: {
         background: theme.palette.primary.main,
         border: 0,
@@ -8,4 +8,6 @@ const useStyles = theme => ({
         height: 48,
         padding: '0 30px',
     }
-});
+  });
+
+export default buttonstyling;
